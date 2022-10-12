@@ -1,0 +1,54 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    justify-content: center;
+    grid-template-columns: 50vw;
+}
+
+.backgroundimg {
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.flexbox-item {
+    width: 200px;
+    min-height: 200px;
+    margin: 10px;
+}
+
+.flexbox-item-2 {
+    width: 400px;
+}
+
+.flexbox-item-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background: #ffae42;
+    color: white;
+    width: 75%;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.raisin {
+    width: 200px;
+}
